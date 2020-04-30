@@ -1,8 +1,6 @@
-# Next.js with material-ui and styled-components
+# DSC-JIIT Official Website
 
-## How to use
-
-Download the example [or clone the repo](https://github.com/MarchWorks/nextjs-with-material-ui-styled-components):
+## How to start contributing
 
 Install it and run:
 
