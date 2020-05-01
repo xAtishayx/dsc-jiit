@@ -3,11 +3,6 @@ import Link from "../src/Link";
 import { Divider } from "@material-ui/core";
 import $ from "jquery"
 
-    $(".main-page .nav-item a").click(function () {
-      hr = $(this).attr("href");
-      $("html, body").animate({ scrollTop: $(hr).offset().top - 50 }, 500);
-    });
-
 
   
 

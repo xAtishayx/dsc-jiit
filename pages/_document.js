@@ -66,6 +66,12 @@ class MyDocument extends Document {
 
         </Head>
         <body>
+        <div class="wrapper">
+            <div class="blue ball"></div>
+            <div class="red ball"></div>
+            <div class="yellow ball"></div>
+            <div class="green ball"></div>
+          </div>
           <Main />
           <NextScript />
         </body>

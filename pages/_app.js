@@ -6,7 +6,6 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../src/theme';
 import "../assets/css/custom.css"
 import "../assets/css/material-kit1c51.css"
-import $ from 'jquery'
 
 
 
@@ -18,6 +17,12 @@ class MyApp extends App {
     if (jssStyles) {
       jssStyles.parentNode.removeChild(jssStyles);
     }
+    window.addEventListener('load',function loading() {
+      var preload = document.querySelector('.wrapper');
+      preload.classList.add('load-end');
+    })
+
+
   }
 
   render() {
@@ -26,7 +31,7 @@ class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title>My page</title>
+          <title>DSC JIIT</title>
         </Head>
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
