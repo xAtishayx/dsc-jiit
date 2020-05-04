@@ -5,27 +5,27 @@ class Contact extends Component {
     state = {  }
     render() {
         return (
-<div id="ContactUs" className="footer contact-us-section container-fluid">
+<div id="contact" className="footer contact-us-section container-fluid">
       <div className="section">
         <div className="row">
           <div className="col-lg-4 col-md-5 col-10 offset-1 offset-md-2">
             <h2 className="">Send us a message</h2> <br/>
             <form role="form" id="contact-form" method="post" action="https://formspree.io/mknqnbgb">
               <div className="form-group">
-                <label for="name" className="bmd-label-floating">Your name</label>
+                <label htmlFor="name" className="bmd-label-floating">Your name</label>
                 <input type="text" name="name" className="form-control" id="name" required />
               </div>
               <div className="form-group">
-                <label for="exampleInputEmails" className="bmd-label-floating">Email address</label>
+                <label htmlFor="exampleInputEmails" className="bmd-label-floating">Email address</label>
                 <input type="email" name="email" className="form-control" id="emails" required />
                 <span className="bmd-help">We'll never share your email with anyone else.</span>
               </div>
               <div className="form-group">
-                <label for="phone" className="bmd-label-floating">Phone</label>
+                <label htmlFor="phone" className="bmd-label-floating">Phone</label>
                 <input type="number" name="phone" className="form-control" id="phone" required />
               </div>
               <div className="form-group label-floating">
-                <label className="form-control-label bmd-label-floating" for="message"> Your message</label>
+                <label className="form-control-label bmd-label-floating" htmlFor="message"> Your message</label>
                 <textarea className="form-control" name="message" rows="6" id="message" required />
               </div>
               <input type="hidden" name="_subject" value="New Contact mail!" />

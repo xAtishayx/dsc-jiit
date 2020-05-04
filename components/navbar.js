@@ -105,10 +105,12 @@ export default function Navbar() {
         })}
       >
         <Toolbar>
+        
          <Typography variant="h6" noWrap className={classes.title} >
-         <img src="https://i.ibb.co/TtwjpQB/logo.png" className="img-fluid" style={{height:50}} /> &nbsp;
-             DSC JIIT 
-           </Typography> 
+         <Link href="/" style={{textDecoration: "none", color:"grey"}}> <img src="https://i.ibb.co/TtwjpQB/logo.png" className="img-fluid" style={{height:50}} /> &nbsp;
+             DSC JIIT </Link>
+           </Typography>
+    
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -139,22 +141,28 @@ export default function Navbar() {
            </Typography>
         </div>
         <Divider />
-        <List>
+        <List >
+        <Link href="/" color="secondary" style={{textDecoration:"none"}}>
             <ListItem button>
-                    <ListItemText primary="Home" />              
-            </ListItem>
+            
+              <ListItemText primary="Home" / >              
+            </ListItem></Link>
+            <a href="#about"  style={{textDecoration:"none",color:"teal"}}>
             <ListItem button>
                     <ListItemText primary="About" />              
-            </ListItem>
+            </ListItem></a>
+            <Link href="/events" color="secondary" style={{textDecoration:"none"}}>
             <ListItem button>
                     <ListItemText primary="Events" />              
-            </ListItem>
+            </ListItem></Link>
+            <Link href="/team" color="secondary" style={{textDecoration:"none"}}>
             <ListItem button>
                     <ListItemText primary="Team" />              
-            </ListItem>
+            </ListItem></Link>
+            <a href="#contact"  style={{textDecoration:"none",color:"teal"}}>
             <ListItem button>
                     <ListItemText primary="Contact" />              
-            </ListItem>
+            </ListItem> </a>
         </List>
         <Divider />
       </Drawer>

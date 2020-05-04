@@ -8,7 +8,7 @@ class About extends Component {
   render() {
     return (
       <div className="main">
-        <div id="AboutUs" className=" about-section container-fluid   ">
+        <div id="about" className=" about-section container-fluid   ">
           <div className="section text-center">
             <div className="row">
               <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">

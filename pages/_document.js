@@ -51,19 +51,6 @@ class MyDocument extends Document {
           />
 
   <meta name="apple-mobile-web-app-status-bar-style" content="#fff" />
-  <link rel="manifest" href="manifest.json" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="description" content="IIITL Developer Student Club (DSC IIITL) is a Google Developers program for IIITL students to learn mobile and web development skills." />
-  <title> DSC JIIT</title>
-  <link rel="icon" href="assets/img/logo.png" />
-
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800|Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-  <link rel="stylesheet" href="./js/maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-
-  <link href="../assets/css/material-kit1c51.css?v=2.1.2" rel="stylesheet" />
-  <link rel="stylesheet" href="./js/unpkg.com/flickity%402.2.1/dist/flickity.min.css" />
-  <link href="../assets/css/custom.css" rel="stylesheet" />
-
         </Head>
         <body>
         <div class="wrapper">
