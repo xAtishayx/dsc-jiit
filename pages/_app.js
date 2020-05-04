@@ -7,8 +7,6 @@ import theme from '../src/theme';
 import "../assets/css/custom.css";
 import "../assets/css/material-kit1c51.css";
 
-
-
 class MyApp extends App {
   componentDidMount() {
     // Remove the server-side injected CSS.
