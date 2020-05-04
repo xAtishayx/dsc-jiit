@@ -1,68 +1,163 @@
-import React, { Component } from "react";
+import React from 'react';
+import clsx from 'clsx';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
+import Drawer from '@material-ui/core/Drawer';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import List from '@material-ui/core/List';
+import Typography from '@material-ui/core/Typography';
+import Divider from '@material-ui/core/Divider';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import InboxIcon from '@material-ui/icons/MoveToInbox';
+import MailIcon from '@material-ui/icons/Mail';
+
 import Link from "../src/Link";
-import { Divider } from "@material-ui/core";
-import $ from "jquery"
+import { nominalTypeHack } from 'prop-types';
+const drawerWidth = 240;
 
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+  },
+  appBar: {
+    background: "transparent",
+    color: "grey",
+    boxShadow: "none",
+    transition: theme.transitions.create(['margin', 'width'], {
+      easing: theme.transitions.easing.sharp,
+      duration: theme.transitions.duration.leavingScreen,
+    }),
+  },
+  appBarShift: {
+    width: `calc(100% - ${drawerWidth}px)`,
+    transition: theme.transitions.create(['margin', 'width'], {
+      easing: theme.transitions.easing.easeOut,
+      duration: theme.transitions.duration.enteringScreen,
+    }),
+    marginRight: drawerWidth,
+  },
+  title: {
+    flexGrow: 1,
+  },
+  hide: {
+    display: 'none',
+  },
+  drawer: {
+    width: drawerWidth,
+    flexShrink: 0,
+  },
+  drawerPaper: {
+    width: drawerWidth,
+  },
+  drawerHeader: {
+    display: 'flex',
+    alignItems: 'center',
+    padding: theme.spacing(0, 1),
+    // necessary for content to be below app bar
+    ...theme.mixins.toolbar,
+    justifyContent: 'flex-start',
+  },
+  content: {
+    flexGrow: 1,
+    padding: theme.spacing(3),
+    transition: theme.transitions.create('margin', {
+      easing: theme.transitions.easing.sharp,
+      duration: theme.transitions.duration.leavingScreen,
+    }),
+    marginRight: -drawerWidth,
+  },
+  contentShift: {
+    transition: theme.transitions.create('margin', {
+      easing: theme.transitions.easing.easeOut,
+      duration: theme.transitions.duration.enteringScreen,
+    }),
+    marginRight: 0,
+  },
+}));
 
-  
+export default function Navbar() {
+  const classes = useStyles();
+  const theme = useTheme();
+  const [open, setOpen] = React.useState(false);
 
-class Navbar extends Component{
-    state = {  }
+  const handleDrawerOpen = () => {
+    setOpen(true);
+  };
 
-    render() {
-        return (
-            <nav className="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="20" id="sectionsNav">
-    <div className="container">
-      <div className="navbar-translate">
-        <div className="navbar-brand logo">
-          <div className="logo-big">
-            <img src="https://dsckitrc.tech/static/6b1acfe99af5a045f707d75f2510443a/fece7/build.png" className="img-fluid"  />
-            <span> DSC JIIT </span>
-          </div>
-          <div className="logo-small">
-            <img src="https://dsckitrc.tech/static/6b1acfe99af5a045f707d75f2510443a/fece7/build.png" className="img-fluid"  />
-            <span> DSC JIIT </span>
-          </div>
+  const handleDrawerClose = () => {
+    setOpen(false);
+  };
+
+  return (
+    <div className={classes.root}>
+      <CssBaseline />
+      <AppBar
+        position="fixed"
+        className={clsx(classes.appBar, {
+          [classes.appBarShift]: open,
+        })}
+      >
+        <Toolbar>
+         <Typography variant="h6" noWrap className={classes.title} >
+         <img src="https://i.ibb.co/TtwjpQB/logo.png" className="img-fluid" style={{height:50}} /> &nbsp;
+             DSC JIIT 
+           </Typography> 
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            edge="end"
+            onClick={handleDrawerOpen}
+            className={clsx(open && classes.hide)}
+          >  
+            <MenuIcon />
+          </IconButton>
+        </Toolbar>
+      </AppBar>
+
+      <Drawer
+        className={classes.drawer}
+        variant="persistent"
+        anchor="right"
+        open={open}
+        classes={{
+          paper: classes.drawerPaper,
+        }}
+      >
+        <div className={classes.drawerHeader}>
+          <IconButton onClick={handleDrawerClose}>
+            {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
+          </IconButton>
+          <Typography variant="h6" noWrap className={classes.title}>
+           DSC JIIT
+           </Typography>
         </div>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="sr-only">Toggle navigation</span>
-          <span className="navbar-toggler-icon"></span>
-          <span className="navbar-toggler-icon"></span>
-          <span className="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div className="collapse navbar-collapse">
-        <ul className="main-page navbar-nav ml-auto">
-          <li className="nav-item">
-            <a href="#AboutUs" className="nav-link">
-              About Us
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="events.html" className="nav-link">
-              Events
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="https://www.medium.com/developer-student-clubs-iiitl" target="_blank" className="nav-link">Blog</a>
-          </li>
-          <li className="nav-item">
-            <a href="https://www.github.com/DSC-IIITL" target="_blank" className="nav-link">Projects</a>
-          </li>
-          <li className="nav-item">
-            <a href="team.html" className="nav-link">Our Team</a>
-          </li>
-          <li className="nav-item">
-            <a href="#ContactUs" className="nav-link">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
+        <Divider />
+        <List>
+            <ListItem button>
+                    <ListItemText primary="Home" />              
+            </ListItem>
+            <ListItem button>
+                    <ListItemText primary="About" />              
+            </ListItem>
+            <ListItem button>
+                    <ListItemText primary="Events" />              
+            </ListItem>
+            <ListItem button>
+                    <ListItemText primary="Team" />              
+            </ListItem>
+            <ListItem button>
+                    <ListItemText primary="Contact" />              
+            </ListItem>
+        </List>
+        <Divider />
+      </Drawer>
     </div>
-  </nav>
-        );
-    }
+  );
 }
-
-export default Navbar;

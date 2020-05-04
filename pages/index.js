@@ -10,6 +10,7 @@ import Navbar from "../components/navbar";
 import MainPage from "../components/mainpage";
 import About from "../components/about";
 import ButtonAppBar from "../components/appbar"
+import Contact from "../components/contact"
 const Title = styled.h1`
   color: red;
   font-size: 50px;
@@ -22,6 +23,7 @@ export default function Index() {
       <Navbar />
       <MainPage />
       <About />
+      <Contact />
       <div></div>
     </div>
   );

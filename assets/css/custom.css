@@ -326,8 +326,7 @@ body {
 }
 
 .about-section {
-    background-color: #000
-}
+   }
 
 .about-section .section {
     padding: 0
@@ -357,7 +356,9 @@ body {
 
 .about-section-img {
     background-size: cover;
-    background-position: center
+    background-position: center;
+    z-index: 2;
+    background-image: url("https://i.ibb.co/mz2sFBs/hero.png");
 }
 
 .what-we-do {
