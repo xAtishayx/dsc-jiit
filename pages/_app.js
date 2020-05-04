@@ -4,9 +4,9 @@ import Head from 'next/head';
 import { ThemeProvider } from '@material-ui/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../src/theme';
-import "../assets/css/custom.css"
-import "../assets/css/material-kit1c51.css"
-
+import "../assets/css/custom.css";
+import "../assets/css/material-kit1c51.css";
+import $ from "jquery";
 
 
 
@@ -22,9 +22,10 @@ class MyApp extends App {
       preload.classList.add('load-end');
     })
 
-
+    
   }
 
+  
   render() {
     const { Component, pageProps } = this.props;
 

@@ -13,6 +13,8 @@ class Mainpage extends Component {
         
             <div className="circles circle6"></div>
             <div className="circles circle7"></div>
+          <center><img className="hero-img" src="https://i.ibb.co/mz2sFBs/hero.png"  />
+    </center>  
             <div className="container">
               <div className="row">
                 <div className="col-md-8 ml-auto mr-auto">
