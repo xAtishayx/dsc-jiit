@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   appBar: {
-    background: "#fff",
+    background: "transparent",
     color: "grey",
     boxShadow: "none",
     transition: theme.transitions.create(['margin', 'width'], {

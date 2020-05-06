@@ -49,6 +49,7 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
+          
 
   <meta name="apple-mobile-web-app-status-bar-style" content="#fff" />
 
@@ -57,7 +58,7 @@ class MyDocument extends Document {
 <meta name="keywords" content="Keywords" />
 <meta name="msapplication-TileColor" content="#ffffff"/>
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
-<title>DSC JIIT</title>
+
 
 
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>

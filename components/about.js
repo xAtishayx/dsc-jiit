@@ -25,13 +25,7 @@ class About extends Component {
                     intended as a space for students to try out new ideas and
                     collaborate to solve mobile and web development problems.
                     <br /> <br/> <br/>
-                    Earlier Known as GDG JIIT NOIDA, our organization has been
-                    at the forefront of adopting Google’s technologies and its
-                    members have been committed to excellence. GDG JIIT Noida
-                    has now officially transitioned to Developer Student Club
-                    JIIT. Developer Student Clubs (DSC) is a Google Developers
-                    program for university students to learn mobile and web
-                    development skills.
+
                   </h4> <br/>
                   <Button variant="contained" size="large" color="primary" href="https://developers.google.com/programs/dsc/" target="blank" style={{textDecoration:"none",}}>
           Learn More

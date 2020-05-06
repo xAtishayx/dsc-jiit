@@ -4,18 +4,47 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import MuiLink from '@material-ui/core/Link';
 import Link from '../src/Link';
-import Navbar from "../components/navbar";
-
+import Navbar2 from "../components/navbar2";
+import Members from '../components/members';
+import Contact from '../components/contact';
+const img = "assets/img/fb.jpg"
 export default function Team() {
   return (
-    <Container maxWidth="sm">
-      <Navbar />
-      <Box my={4}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Team Page
-        </Typography>
-        <Link href="/">Go to the main page</Link>
-      </Box>
-    </Container>
+    <div className="header-3">
+<Navbar2 />
+    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <div className="page-header header-filter" id="img" >
+            <div className="container">
+              <div className="row">
+                <div className="col-md-10 ml-auto mr-auto text-center" style={{marginTop: "250"}}>
+                  <h1 className="title team-main-title">About the team</h1>
+                  <h4 className=" d-none d-md-block"
+                    style={{fontWeight: 300, wordSpacing: 3, letterSpacing: 1}}>
+                    DSC JIIT aspires to expand its student community of passionate and fervent developers to
+                    encapsulate
+                    the latest and advanced technologies such as cloud computing, machine learning, big data, web, and
+                    app development, etc. through their interactive and free workshops. The students get an exceptional
+                    experience through the seminars conducted involving the industry professionals. With the
+                    cooperation of various domains such as Technical, Business, Creatives and Public Relations and
+                    Documentation these events are organized with rewarding feedbacks.
+                  </h4>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <style jsx>{`
+        #img {
+          background-image: url('/assets/img/coreteam/Members/team.jpg');
+      `}</style>
+      <Members />
+      <Contact />
+  </div>
   );
 }
