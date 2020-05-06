@@ -1,8 +1,9 @@
 {
   "name": "DSC-JIIT",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
-  "display": "minimal-ui",
+  "short_name": "DSC-JIIT",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "/",
   "icons": [
