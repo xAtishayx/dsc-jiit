@@ -17,6 +17,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
+import Popover from '@material-ui/core/Popover';
 
 import Link from "../src/Link";
 import { nominalTypeHack } from 'prop-types';
@@ -27,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   appBar: {
-    background: "transparent",
+    background: "#fff",
     color: "grey",
     boxShadow: "none",
     transition: theme.transitions.create(['margin', 'width'], {
@@ -135,32 +136,33 @@ export default function Navbar() {
         <div className={classes.drawerHeader}>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
-          </IconButton>
-          <Typography variant="h6" noWrap className={classes.title}>
+            <Typography variant="h6" noWrap className={classes.title} >
            DSC JIIT
            </Typography>
+          </IconButton>
+         
         </div>
         <Divider />
         <List >
         <Link href="/" color="secondary" style={{textDecoration:"none"}}>
-            <ListItem button>
+            <ListItem button onClick={handleDrawerClose}>
             
               <ListItemText primary="Home" / >              
             </ListItem></Link>
             <a href="#about"  style={{textDecoration:"none",color:"teal"}}>
-            <ListItem button>
+            <ListItem button onClick={handleDrawerClose}>
                     <ListItemText primary="About" />              
             </ListItem></a>
             <Link href="/events" color="secondary" style={{textDecoration:"none"}}>
-            <ListItem button>
+            <ListItem button onClick={handleDrawerClose}>
                     <ListItemText primary="Events" />              
             </ListItem></Link>
             <Link href="/team" color="secondary" style={{textDecoration:"none"}}>
-            <ListItem button>
+              <ListItem button onClick={handleDrawerClose}>
                     <ListItemText primary="Team" />              
             </ListItem></Link>
             <a href="#contact"  style={{textDecoration:"none",color:"teal"}}>
-            <ListItem button>
+            <ListItem button onClick={handleDrawerClose}  >
                     <ListItemText primary="Contact" />              
             </ListItem> </a>
         </List>
