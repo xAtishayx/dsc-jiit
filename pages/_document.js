@@ -57,6 +57,7 @@ class MyDocument extends Document {
 <meta name="keywords" content="Keywords" />
 <meta name="msapplication-TileColor" content="#ffffff"/>
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
+<title>DSC JIIT</title>
 
 
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
