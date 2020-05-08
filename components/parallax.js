@@ -1,7 +1,7 @@
 import React from 'react';
-import Link from '../src/Link';
 import { Parallax, Background } from 'react-parallax';
-const image="assets/img/mac.jpg"
+
+const image="assets/img/coreteam/Members/dsc_lead.jpg"
 export default function Parallaxs() {
   return (
 <Parallax bgImage={image} strength={400}>

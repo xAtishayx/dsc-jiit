@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import Link from "../src/Link";
-import Container from "@material-ui/core/Container";
 import Button from "@material-ui/core/Button";
-import { makeStyles } from '@material-ui/core/styles';
 class About extends Component {
   state = {};
   render() {
@@ -24,12 +21,19 @@ class About extends Component {
                     developers who want to further their skills. The clubs are
                     intended as a space for students to try out new ideas and
                     collaborate to solve mobile and web development problems.
-                    <br /> <br/> <br/>
-
-                  </h4> <br/>
-                  <Button variant="contained" size="large" color="primary" href="https://developers.google.com/programs/dsc/" target="blank" style={{textDecoration:"none",}}>
-          Learn More
-        </Button>
+                    <br /> <br /> <br />
+                  </h4>{" "}
+                  <br />
+                  <Button
+                    variant="contained"
+                    size="large"
+                    color="primary"
+                    href="https://developers.google.com/programs/dsc/"
+                    target="blank"
+                    style={{ textDecoration: "none" }}
+                  >
+                    Learn More
+                  </Button>
                 </div>
               </div>
               <div className="d-none d-md-block d-xl-block col-lg-7 col-md-7 about-section-img"></div>

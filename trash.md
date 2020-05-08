@@ -1,1 +1,0 @@
-          <img src="https://www.gstatic.com/devrel-devsite/prod/v1d5d005a3fe90dfeb19c1132f22dcac513a2dac8a97ff26a167dd23cfb354cb0/developers/images/lockup.svg?dcb_=0.05852688913626114" style={{height:30}}/>
