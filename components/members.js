@@ -75,9 +75,7 @@ class Members extends Component {
                 <h2 className="title">Core Members</h2>
               </div>
             </div>
-            <div className="row">
                   <Footer />
-            </div>
             
           </div>
         </div>
