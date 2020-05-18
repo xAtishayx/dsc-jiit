@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import Footer from "./footer";
-
+import Footer from "./card";
 
 class Members extends Component {
   render() {
-
     return (
       <div className="team-container team-lead-div" style={{ zIndex: 99 }}>
         <div className="red-circle circles circle1"></div>
@@ -72,11 +70,10 @@ class Members extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-8 ml-auto mr-auto text-center">
-                <h2 className="title">Core Members</h2>
+                <h2 className="title">Members</h2>
               </div>
             </div>
-                  <Footer />
-            
+            <Footer />
           </div>
         </div>
       </div>

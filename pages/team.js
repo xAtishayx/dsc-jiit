@@ -22,7 +22,7 @@ export default function Team() {
                     className="col-md-10 ml-auto mr-auto text-center"
                     style={{ marginTop: "250" }}
                   >
-                    <h1 className="title team-main-title">About the team</h1>
+                    <h1 className="title team-main-title">About the Team</h1>
                     <h4
                       className=" d-none d-md-block"
                       style={{
@@ -47,13 +47,36 @@ export default function Team() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
+          </div>
+          </div>
       <style jsx>{`
         #img {
-          background-image: url('/assets/img/coreteam/Members/team.jpg');
+          background-image: url('/assets/img/events/1.jpeg');
+        }
+        .row{
+          margin-right: 0;
+      }
+        @media(max-width:700px) {
+          .about_section{
+              margin-top: 10px;
+              margin-bottom: 100px;
+          }
+          .row{
+              margin-left: 0;
+              margin-right: 0;
+          }
       `}</style>
+
+
+
+<div className="row" >
+      <div className="bg-yellow" style={{height: 15, width: "33.33vw", padding: 0, marginLeft: 0, marginRight: 0, display: "flex"}}></div>
+      <div className="bg-blue" style={{height: 15, width: "33.33vw", padding: 0, marginLeft: 0, marginRight: 0, display: "flex"}}></div>
+      <div className="bg-red" style={{height: 15, width: "33.33vw", padding: 0, marginLeft: 0, marginRight: 0, display: "flex"}}></div>
+    </div>
+
+
+
       <Members />
       <Contact />
     </div>

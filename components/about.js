@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Button from "@material-ui/core/Button";
 class About extends Component {
   state = {};
   render() {
@@ -21,19 +20,17 @@ class About extends Component {
                     developers who want to further their skills. The clubs are
                     intended as a space for students to try out new ideas and
                     collaborate to solve mobile and web development problems.
-                    <br /> <br /> <br />
+                    <br />
                   </h4>{" "}
                   <br />
-                  <Button
-                    variant="contained"
-                    size="large"
-                    color="primary"
+                  <a
                     href="https://developers.google.com/programs/dsc/"
-                    target="blank"
-                    style={{ textDecoration: "none" }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary prime_btn mb-4"
                   >
                     Learn More
-                  </Button>
+                  </a>
                 </div>
               </div>
               <div className="d-none d-md-block d-xl-block col-lg-7 col-md-7 about-section-img"></div>

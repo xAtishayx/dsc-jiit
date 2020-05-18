@@ -13,7 +13,7 @@ class Mainpage extends Component {
         <div className="circles circle6"></div>
         <div className="circles circle7"></div>
         <center>
-          <img className="hero-img" src="/assets/img/hero.png" />
+          <img className="hero-img" src="/assets/img/hero.png" alt="img" />
         </center>
         <div className="container">
           <div className="row">

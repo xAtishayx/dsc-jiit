@@ -28,6 +28,8 @@ class MyApp extends App {
       <Container>
         <Head>
           <title>DSC JIIT</title>
+          <link rel="icon" href="assets/img/logo.png" />
+
         </Head>
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

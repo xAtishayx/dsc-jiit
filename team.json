@@ -2,66 +2,105 @@
     "members": [
         {
             "name": "Atishay Srivastava",
-            "description": "Technical Coordinator",
+            "description": "Coordinator",
+            "img" : "/assets/img/coreteam/Members/dp.jpeg",
             "links":{
-                "linkedin": "",
+                "linkedin": "a",
                 "github": "",
-                "insta":""
+                "fb":""
             }
         },
         {
             "name": "Atishay Srivastava",
-            "description": "Technical Coordinator",
+            "description": "Coordinator",
+            "img": "/assets/img/coreteam/Members/dp.jpeg",
             "links":{
                 "linkedin": "a",
                 "github": "",
-                "insta":""
+                "fb":""
             }
         },
         {
             "name": "Atishay Srivastava",
-            "description": "Technical Coordinator",
+            "description": "Coordinator",
+            "img" : "/assets/img/coreteam/Members/dp.jpeg",
             "links":{
                 "linkedin": "a",
                 "github": "",
-                "insta":""
+                "fb":""
             }
         },
         {
             "name": "Atishay Srivastava",
-            "description": "Technical Coordinator",
+            "description": "Coordinator",
+            "img" : "/assets/img/coreteam/Members/dp.jpeg",
             "links":{
                 "linkedin": "a",
                 "github": "",
-                "insta":""
+                "fb":""
             }
         },
         {
             "name": "Atishay Srivastava",
-            "description": "Technical Coordinator",
+            "description": "Coordinator",
+            "img" : "/assets/img/coreteam/Members/dp.jpeg",
             "links":{
                 "linkedin": "a",
                 "github": "",
-                "insta":""
+                "fb":""
             }
         },
         {
             "name": "Atishay Srivastava",
-            "description": "Technical Coordinator",
+            "description": "Coordinator",
+            "img" : "/assets/img/coreteam/Members/dp.jpeg",
             "links":{
                 "linkedin": "a",
                 "github": "",
-                "insta":""
+                "fb":""
             }
         },
         {
             "name": "Atishay Srivastava",
-            "description": "Technical Coordinator",
+            "description": "Coordinator",
+            "img" : "/assets/img/coreteam/Members/dp.jpeg",
             "links":{
                 "linkedin": "a",
                 "github": "",
-                "insta":""
+                "fb":""
             }
+        }
+    ],
+    "events":[
+        {
+            "name":"GCP Course",
+            "img" :"assets/img/workshops/ml.png",
+            "link": "",
+            "date":"09/09/2019"
+        },
+        {
+            "name":"GCP Course",
+            "img" :"assets/img/workshops/ml.png",
+            "link": "",
+            "date":"09/09/2019"
+        },
+        {
+            "name":"GCP Course",
+            "img" :"assets/img/workshops/ml.png",
+            "link": "",
+            "date":"09/09/2019"
+        },
+        {
+            "name":"GCP Course",
+            "img" :"assets/img/workshops/ml.png",
+            "link": "",
+            "date":"09/09/2019"
+        },
+        {
+            "name":"GCP Course",
+            "img" :"assets/img/workshops/ml.png",
+            "link": "",
+            "date":"09/09/2019"
         }
     ]
 }

@@ -1,55 +1,52 @@
 import React, { Component } from "react";
 
-function toggleFormValid(){
-  var name = document.getElementById('name').value;
-  var mail = document.getElementById('emails').value;
-  var phone = document.getElementById('phone').value;
-  var msg = document.getElementById('message').value;
-  var btn = document.getElementById('sbtns').value;
+function toggleFormValid() {
+  var name = document.getElementById("name").value;
+  var mail = document.getElementById("emails").value;
+  var phone = document.getElementById("phone").value;
+  var msg = document.getElementById("message").value;
+  var btn = document.getElementById("sbtns").value;
 
-  if (name=='' || mail=='' || phone=='' || msg=='') {
-    document.getElementById('sbtns').disabled = true;
+  if (name == "" || mail == "" || phone == "" || msg == "") {
+    document.getElementById("sbtns").disabled = true;
     console.log("invalid");
-  }else{
+  } else {
     document.getElementById("sbtns").disabled = false;
     console.log("Valid!");
   }
-
 }
 
-function Validation(){
-  var name = document.getElementById('name').value;
-  var mail = document.getElementById('emails').value;
-  var phone = document.getElementById('phone').value;
-  var msg = document.getElementById('message').value;
-  var btn = document.getElementById('sbtns').value;
-  if (name=='' || mail=='' || phone=='' || msg=='') {
-    alert('All Fields are Required');
-    
-   }
+function Validation() {
+  var name = document.getElementById("name").value;
+  var mail = document.getElementById("emails").value;
+  var phone = document.getElementById("phone").value;
+  var msg = document.getElementById("message").value;
+  var btn = document.getElementById("sbtns").value;
+  if (name == "" || mail == "" || phone == "" || msg == "") {
+    alert("All Fields are Required");
+  }
   if (!isValidname(name)) {
-    alert('Invalid Name');
-     document.getElementById("sbtns").disabled = true;
+    alert("Invalid Name");
+    document.getElementById("sbtns").disabled = true;
   }
-  if(!isValidEmail(mail)) {
-    alert('Invalid Mail Id');
-     document.getElementById("sbtns").disabled = true;
+  if (!isValidEmail(mail)) {
+    alert("Invalid Mail Id");
+    document.getElementById("sbtns").disabled = true;
   }
-  if(!isValidphone(phone)){
-    alert('Invalid Phone Number');
-     document.getElementById("sbtns").disabled = true;
+  if (!isValidphone(phone)) {
+    alert("Invalid Phone Number");
+    document.getElementById("sbtns").disabled = true;
   }
-
 }
-function isValidname(name){
+function isValidname(name) {
   var regex = /^[A-Za-z\s]{1,}[\.]{0,1}[A-Za-z\s]{0,}$/;
-return regex.test(name);
+  return regex.test(name);
 }
-function isValidEmail(mail){
-var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-return regex.test(mail);
+function isValidEmail(mail) {
+  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  return regex.test(mail);
 }
-function isValidphone(phone){
+function isValidphone(phone) {
   var regex = /^(\+\d{1,2})?\(?\d{3}\)?\d{3}\d{4}$/;
   return regex.test(phone);
 }
@@ -59,10 +56,10 @@ class Contact extends Component {
   render() {
     return (
       <div id="contact" className="footer contact-us-section container-fluid">
-        <img className="blue-2" src="assets/img/blue-2.svg" />
-        <img className="green-2" src="assets/img/green-2.svg" />
-        <img className="yellow-2" src="assets/img/yellow-2.svg" />
-        <img className="red-2" src="assets/img/red-2.svg" />
+        <img className="blue-2" src="assets/img/blue-2.svg" alt="img"/>
+        <img className="green-2" src="assets/img/green-2.svg" alt="img"/>
+        <img className="yellow-2" src="assets/img/yellow-2.svg" alt="img" />
+        <img className="red-2" src="assets/img/red-2.svg" alt="img" />
         <div className="section">
           <div className="row">
             <div className="col-lg-4 col-md-5 col-10 offset-1 offset-md-2">
@@ -165,13 +162,14 @@ class Contact extends Component {
               <br />
               <div className="social-links list-unstyled">
                 <a href="https://www.facebook.com/dscjiitnoida/">
-                  <img src="assets/img/fb.png" width="35px" height="35px" />
+                  <img src="assets/img/fb.png" width="35px" height="35px" alt="img" />
                 </a>
                 <a href="https://www.linkedin.com/company/dscjiitnoida/">
                   <img
                     src="assets/img/linkedin.png"
                     width="35px"
                     height="35px"
+                    alt="img"
                   />
                 </a>
                 <a href="https://github.com/GDGJIITNOIDA">
@@ -179,6 +177,7 @@ class Contact extends Component {
                     src="https://image.flaticon.com/icons/svg/25/25231.svg"
                     width="35px"
                     height="35px"
+                    alt="img"
                   />
                 </a>
                 <a href="https://twitter.com/gdg_jiit_noida?lang=en">
@@ -186,20 +185,13 @@ class Contact extends Component {
                     src="assets/img/twitter.png"
                     width="35px"
                     height="35px"
+                    alt="img"
                   />
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <center>
-          <span>
-            Made with <i className="fa fa-heart pulse"></i> by
-            <a href="https://github.com/xatishayx" target="_blank">
-              xAtishayx
-            </a>
-          </span>
-        </center>
       </div>
     );
   }
