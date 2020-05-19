@@ -24,7 +24,7 @@ export default function Index() {
           className="bg-yellow"
           style={{
             height: 15,
-            width: "33.33vw",
+            width: "33.33%",
             padding: 0,
             marginLeft: 0,
             marginRight: 0,
@@ -35,7 +35,7 @@ export default function Index() {
           className="bg-blue"
           style={{
             height: 15,
-            width: "33.33vw",
+            width: "33.33%",
             padding: 0,
             marginLeft: 0,
             marginRight: 0,
@@ -46,7 +46,7 @@ export default function Index() {
           className="bg-red"
           style={{
             height: 15,
-            width: "33.33vw",
+            width: "33.33%",
             padding: 0,
             marginLeft: 0,
             marginRight: 0,
@@ -61,7 +61,7 @@ export default function Index() {
           className="bg-yellow"
           style={{
             height: 15,
-            width: "33.33vw",
+            width: "33.33%",
             padding: 0,
             marginLeft: 0,
             marginRight: 0,
@@ -72,7 +72,7 @@ export default function Index() {
           className="bg-blue"
           style={{
             height: 15,
-            width: "33.33vw",
+            width: "33.33%",
             padding: 0,
             marginLeft: 0,
             marginRight: 0,
@@ -83,7 +83,7 @@ export default function Index() {
           className="bg-red"
           style={{
             height: 15,
-            width: "33.33vw",
+            width: "33.33%",
             padding: 0,
             marginLeft: 0,
             marginRight: 0,

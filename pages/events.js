@@ -29,7 +29,7 @@ export default class Events extends Component {
             className="bg-yellow"
             style={{
               height: 15,
-              width: "33.33vw",
+              width: "33.33%",
               padding: 0,
               marginLeft: 0,
               marginRight: 0,
@@ -40,7 +40,7 @@ export default class Events extends Component {
             className="bg-blue"
             style={{
               height: 15,
-              width: "33.33vw",
+              width: "33.33%",
               padding: 0,
               marginLeft: 0,
               marginRight: 0,
@@ -51,7 +51,7 @@ export default class Events extends Component {
             className="bg-red"
             style={{
               height: 15,
-              width: "33.33vw",
+              width: "33.33%",
               padding: 0,
               marginLeft: 0,
               marginRight: 0,
@@ -134,7 +134,7 @@ export default class Events extends Component {
             className="bg-yellow"
             style={{
               height: 15,
-              width: "33.33vw",
+              width: "33.33%",
               padding: 0,
               marginLeft: 0,
               marginRight: 0,
@@ -145,7 +145,7 @@ export default class Events extends Component {
             className="bg-blue"
             style={{
               height: 15,
-              width: "33.33vw",
+              width: "33.33%",
               padding: 0,
               marginLeft: 0,
               marginRight: 0,
@@ -156,7 +156,7 @@ export default class Events extends Component {
             className="bg-red"
             style={{
               height: 15,
-              width: "33.33vw",
+              width: "33.33%",
               padding: 0,
               marginLeft: 0,
               marginRight: 0,
