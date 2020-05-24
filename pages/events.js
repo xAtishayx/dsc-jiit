@@ -113,12 +113,13 @@ export default class Events extends Component {
                         <div className="link-container">
                           <a
                             href={link}
+                            target="blank"
                             className="link btn btn-primary btn-round btn-block btn-lg"
                           >
                             <i className="material-icons">done</i>
                           </a>
                         </div>
-                      </div>
+                      </div> 
                     </div>
                   </div>
                 );

@@ -13,7 +13,7 @@ export default function Team() {
         className="carousel slide"
         data-ride="carousel"
       >
-        <div className="carousel-inner">
+        <div className="carousel-inner" id ="about">
           <div className="carousel-item active">
             <div className="page-header header-filter" id="img">
               <div className="container">
