@@ -1,131 +1,240 @@
 {
-    "members": [
-        {
-            "name": "Atishay Srivastava",
-            "description": "Coordinator",
-            "img" : "/assets/img/coreteam/Members/dp.jpeg",
-            "links":{
-                "linkedin": "a",
-                "github": "",
-                "fb":""
-            }
-        },
-        {
-            "name": "Atishay Srivastava",
-            "description": "Coordinator",
-            "img": "/assets/img/coreteam/Members/dp.jpeg",
-            "links":{
-                "linkedin": "a",
-                "github": "",
-                "fb":""
-            }
-        },
-        {
-            "name": "Atishay Srivastava",
-            "description": "Coordinator",
-            "img" : "/assets/img/coreteam/Members/dp.jpeg",
-            "links":{
-                "linkedin": "a",
-                "github": "",
-                "fb":""
-            }
-        },
-        {
-            "name": "Atishay Srivastava",
-            "description": "Coordinator",
-            "img" : "/assets/img/coreteam/Members/dp.jpeg",
-            "links":{
-                "linkedin": "a",
-                "github": "",
-                "fb":""
-            }
-        },
-        {
-            "name": "Atishay Srivastava",
-            "description": "Coordinator",
-            "img" : "/assets/img/coreteam/Members/dp.jpeg",
-            "links":{
-                "linkedin": "a",
-                "github": "",
-                "fb":""
-            }
-        },
-        {
-            "name": "Atishay Srivastava",
-            "description": "Coordinator",
-            "img" : "/assets/img/coreteam/Members/dp.jpeg",
-            "links":{
-                "linkedin": "a",
-                "github": "",
-                "fb":""
-            }
-        },
-        {
-            "name": "Atishay Srivastava",
-            "description": "Coordinator",
-            "img" : "/assets/img/coreteam/Members/dp.jpeg",
-            "links":{
-                "linkedin": "a",
-                "github": "",
-                "fb":""
-            }
-        }
-    ],
-    "events":[
-        {
-            "name":"First Step Towards GDE",
-            "img" :"assets/img/workshops/google.jpg",
-            "link": "https://www.facebook.com/photo/?fbid=2954733971276675&set=a.908039265946166&__cft__[0]=AZVdGoMtybPoJbblrNjcf5RB8kkVzP6wVmG4dnFt1dXTUU-ZLk24TlMu6CUEXDOhF4Om2HE6n8HbzkPdYoKtbiPoFi3iPKKx0ufY_soUQ7lLBDFi1jeo-Vb8G0MGPVBzlisPVmaWIa0aWSoE28rndSneIPBFBsIfSVDIhANlX8crtA&__tn__=EH-R",
-            "date":"10/05/2020"
-        },
-        {
-            "name":"React Native",
-            "img" :"assets/img/workshops/react-native.png",
-            "link": "https://www.facebook.com/photo/?fbid=2952709561479116&set=a.908039265946166&__cft__[0]=AZUP8lPmyg0Zw6mdj_qrvpTT7tNJUsolf3xjtZCKumg4DPszZR2xa3AaHyzqX-Qq_9-173KxY29qJG7NerKfZwA7EI4xazisYfzmbdUYDpsBZbvAM8nw3zqtZofyxZX_lvXuwXjZbgkfu_cHZV-PPlgKdtwWQnaPYT7I-EZADsnRrA&__tn__=EH-R",
-            "date":"03/05/2020"
-        },
-        {
-            "name":"ShikaAR The Treasure Hunt",
-            "img" :"assets/img/logo.png",
-            "link": "https://www.facebook.com/photo/?fbid=2807258926024181&set=a.908039265946166&__cft__[0]=AZVF1L5Ieg8Kl96kvN4Jc4DcoA9k5znpx7pWonXi7S0cGZ2do_5blihQn-FZ__RrS1-hvOF3CVtbRLsoMxgYo9dYIkTSt-lO6qiGn8L7cimWNRKXOUvHAS4GPJWlLDTyHhabxGVfJu_GzusuFvm5JPo9yic3cdPcaS9QL8KBHsEoCg&__tn__=EH-R",
-            "date":"29/02/2020"
-        },
-        {
-            "name":"One Two Ka Four",
-            "img" :"assets/img/logo.png",
-            "link": "https://www.facebook.com/photo/?fbid=2804265529656854&set=a.908039265946166&__cft__[0]=AZWY6KWoq7GJdBIFSs363ExjAwpG5_pnAUud2qEzojrytgP6JQwIn70kb-IxjZQCmoop69EvcIxZalUunhzaBiunA7pl5ETjZwwj2_5AiPw6pHmlPVHFjrf_fwXk4PFVYALxbLG4yJNM0v0_nb3tSk05iddU558fWRZblN5fMuFgXA&__tn__=EH-R",
-            "date":"01/03/2020"
-        },
-        {
-            "name":"Alexa Workshop",
-            "img" :"assets/img/workshops/alexa.png",
-            "link": "https://www.facebook.com/photo/?fbid=2744667928949948&set=a.908039265946166&__cft__[0]=AZXrVabz8aqGrT0uCDcqzIWXf9wrqRY-MfXXmEs4lIei1Zyf247Y9yehaifqFFwtOuOXwT9gFzefYSv21jcfdUMkrJbvlAOhnzJ_MeOnYBJpHzq7-aGOSkO6Y4gdebaW2tbkmCQi-0BlH65UZectzPfMjeaAe065KG2CE85FtSXt-g&__tn__=EH-R",
-            "date":"28/01/2020"
-        },
-        {
-            "name":"Explore ML Workshop",
-            "img" :"assets/img/workshops/ml.png",
-            "link": "https://www.facebook.com/photo/?fbid=2588408917909184&set=a.908039265946166&__cft__[0]=AZUz1ax_vBnuRXc9ag-xxwtxz7TR1Axty57sfNu742JszmMr9G8eGdn4ghzt4vR2xYCs6cT73VoWk0gkeFbFrJdKpWzs9IzRsfbFhte3SJmtKKTF5TK02D2iKxnboGRraejc0ID7RBU57zvZ5y9W0KPXNVa_uLz1C9oPt4HyR400rQ&__tn__=EH-R",
-            "date":"18/11/2019"
-        },
-        {
-            "name":"Google Cloud Program",
-            "img" :"assets/img/workshops/cloud.png",
-            "link": "https://www.facebook.com/photo/?fbid=2484650114951732&set=a.908039265946166&__cft__[0]=AZUNFRf2OskXIA2M6oyyKCiycBEilzNw77NkGh6cHu9NMU_BiYPAwXFUhbKH_d0er7-ubSj4H4yakFr0Ap2Y5aPikqTXQI0EOiItAg85DeCa4wptO6NsuIse7CMxblPkB_NsSFo94QAzzeDMiPkY4iFVH395VYl8sTjplmlO1Rjovg&__tn__=EH-R",
-            "date":"03/10/2019"
-        },
-        {
-            "name":"WebDev 19.1",
-            "img" :"assets/img/logo.png",
-            "link": "https://www.facebook.com/photo/?fbid=2445086495574761&set=a.908039265946166&__cft__[0]=AZXjkRlu_pjxervGYcL3cQNwshtW1yVYojQkml7eUexemrWa6U1D0yLnrCSSN4Pz-p5p99gWryvm7N43LC8nSs4S2t3rvbyUTBrLez446VG69AVugi-x3xupWBECVhViyL4k9XpXE3UCSIKZfnbzgrtZ44O8fRsiY1A-P_onBThlXA&__tn__=EH-R",
-            "date":"24/09/2019"
-        },
-        {
-            "name":"Website Designing Competition",
-            "img" :"assets/img/logo.png",
-            "link": "https://www.facebook.com/events/316243032393154/?__cft__[0]=AZVMzk0uIRpJS2lGp3m-A7Bmb0oN9KQ7wWESGG_gos8kodRcNcCJyrHYK_nKmxvEYU8x0DufWgDhiuwoRROM1HRVR6el6WgEN7G5FMt7C_H1SBRUwibIX9Dyb5F3tZuLELvw1mxOO-6XoiUoEwgNxZJG&__tn__=H-R",
-            "date":"21/04/2019"
-        }
-
-    ]
+  "members": [
+    {
+      "name": "Parth Chandna",
+      "description": "Web and App Developer ",
+      "img": "/assets/img/coreteam/Members/parth.jpeg",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/parth-chandna-0b416b186",
+        "github": "https://github.com/pchandna24 ",
+        "fb": "https://m.facebook.com/profile.php?id=100002496285430"
+      }
+    },
+    {
+      "name": "Rohit Jain",
+      "description": "Web Development and Python scripting is my thing.",
+      "img": "/assets/img/coreteam/Members/rohit.jpeg",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/xrohitj",
+        "github": "https://github.com/rohitjain00",
+        "fb": "https://www.facebook.com/xRohitJ/"
+      }
+    },
+    {
+      "name": "Meetanshi Mittal",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/meetanshi.jpeg",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/meetanshi-mittal-2a6270176/",
+        "github": "https://github.com/Meetanshi18",
+        "fb": "https://www.facebook.com/meetanshi.mittal/"
+      }
+    },
+    {
+      "name": "Neel Kukreti",
+      "description": "App Developer",
+      "img": "/assets/img/coreteam/Members/neel.jpg",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/neel-kukreti-7469b2172/",
+        "github": "https://www.github.com/Neelkukreti",
+        "fb": "https://www.facebook.com/neelrockhard"
+      }
+    },
+    {
+      "name": "Atishay Srivastava",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "links": {
+        "linkedin": "a",
+        "github": "",
+        "fb": ""
+      }
+    },
+    {
+      "name": "Atishay Srivastava",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "links": {
+        "linkedin": "a",
+        "github": "",
+        "fb": ""
+      }
+    },
+    {
+      "name": "Atishay Srivastava",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "links": {
+        "linkedin": "a",
+        "github": "",
+        "fb": ""
+      }
+    },
+    {
+      "name": "Atishay Srivastava",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "links": {
+        "linkedin": "a",
+        "github": "",
+        "fb": ""
+      }
+    },
+    {
+      "name": "Atishay Srivastava",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "links": {
+        "linkedin": "a",
+        "github": "",
+        "fb": ""
+      }
+    },
+    {
+      "name": "Atishay Srivastava",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "links": {
+        "linkedin": "a",
+        "github": "",
+        "fb": ""
+      }
+    },
+    {
+      "name": "Atishay Srivastava",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "links": {
+        "linkedin": "a",
+        "github": "",
+        "fb": ""
+      }
+    },
+    {
+      "name": "Atishay Srivastava",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "links": {
+        "linkedin": "a",
+        "github": "",
+        "fb": ""
+      }
+    },
+    {
+      "name": "Atishay Srivastava",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "links": {
+        "linkedin": "a",
+        "github": "",
+        "fb": ""
+      }
+    },
+    {
+      "name": "Atishay Srivastava",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "links": {
+        "linkedin": "a",
+        "github": "",
+        "fb": ""
+      }
+    },
+    {
+      "name": "Atishay Srivastava",
+      "description": "Coordinator",
+      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "links": {
+        "linkedin": "a",
+        "github": "",
+        "fb": ""
+      }
+    },
+    {
+      "name": "Rishav katoch ",
+      "description": "MERN Stack Web and Mobile developer ",
+      "img": "/assets/img/coreteam/Members/rishav.jpeg",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/rishhavv",
+        "github": "https://github.com/rishhavv",
+        "fb": "https://m.facebook.com/rishhavv"
+      }
+    },
+    {
+      "name": "Shashank Mittal",
+      "description": "Graphic Designer",
+      "img":"/assets/img/coreteam/Members/parth.jpeg",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/shashank-mittal-52237a17a/",
+        "github": "https://github.com/Shashankm007",
+        "fb": "https://www.facebook.com/smartshashank.1258/"
+      }
+    },
+    {
+      "name": "Shashank Agarwal",
+      "description": "Graphic Designer",
+      "img": "/assets/img/coreteam/Members/shashankJ.jpeg",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/shashank-agarwal-3ab5b21a7/",
+        "github": "https://github.com/Corbe30",
+        "fb": "https://www.facebook.com/shashank.agarwal.98096"
+      }
+    }
+  ],
+  "events": [
+    {
+      "name": "First Step Towards GDE",
+      "img": "assets/img/workshops/google.jpg",
+      "link": "https://www.facebook.com/photo/?fbid=2954733971276675&set=a.908039265946166&__cft__[0]=AZVdGoMtybPoJbblrNjcf5RB8kkVzP6wVmG4dnFt1dXTUU-ZLk24TlMu6CUEXDOhF4Om2HE6n8HbzkPdYoKtbiPoFi3iPKKx0ufY_soUQ7lLBDFi1jeo-Vb8G0MGPVBzlisPVmaWIa0aWSoE28rndSneIPBFBsIfSVDIhANlX8crtA&__tn__=EH-R",
+      "date": "10/05/2020"
+    },
+    {
+      "name": "React Native",
+      "img": "assets/img/workshops/react-native.png",
+      "link": "https://www.facebook.com/photo/?fbid=2952709561479116&set=a.908039265946166&__cft__[0]=AZUP8lPmyg0Zw6mdj_qrvpTT7tNJUsolf3xjtZCKumg4DPszZR2xa3AaHyzqX-Qq_9-173KxY29qJG7NerKfZwA7EI4xazisYfzmbdUYDpsBZbvAM8nw3zqtZofyxZX_lvXuwXjZbgkfu_cHZV-PPlgKdtwWQnaPYT7I-EZADsnRrA&__tn__=EH-R",
+      "date": "03/05/2020"
+    },
+    {
+      "name": "ShikaAR The Treasure Hunt",
+      "img": "assets/img/logo.png",
+      "link": "https://www.facebook.com/photo/?fbid=2807258926024181&set=a.908039265946166&__cft__[0]=AZVF1L5Ieg8Kl96kvN4Jc4DcoA9k5znpx7pWonXi7S0cGZ2do_5blihQn-FZ__RrS1-hvOF3CVtbRLsoMxgYo9dYIkTSt-lO6qiGn8L7cimWNRKXOUvHAS4GPJWlLDTyHhabxGVfJu_GzusuFvm5JPo9yic3cdPcaS9QL8KBHsEoCg&__tn__=EH-R",
+      "date": "29/02/2020"
+    },
+    {
+      "name": "One Two Ka Four",
+      "img": "assets/img/logo.png",
+      "link": "https://www.facebook.com/photo/?fbid=2804265529656854&set=a.908039265946166&__cft__[0]=AZWY6KWoq7GJdBIFSs363ExjAwpG5_pnAUud2qEzojrytgP6JQwIn70kb-IxjZQCmoop69EvcIxZalUunhzaBiunA7pl5ETjZwwj2_5AiPw6pHmlPVHFjrf_fwXk4PFVYALxbLG4yJNM0v0_nb3tSk05iddU558fWRZblN5fMuFgXA&__tn__=EH-R",
+      "date": "01/03/2020"
+    },
+    {
+      "name": "Alexa Workshop",
+      "img": "assets/img/workshops/alexa.png",
+      "link": "https://www.facebook.com/photo/?fbid=2744667928949948&set=a.908039265946166&__cft__[0]=AZXrVabz8aqGrT0uCDcqzIWXf9wrqRY-MfXXmEs4lIei1Zyf247Y9yehaifqFFwtOuOXwT9gFzefYSv21jcfdUMkrJbvlAOhnzJ_MeOnYBJpHzq7-aGOSkO6Y4gdebaW2tbkmCQi-0BlH65UZectzPfMjeaAe065KG2CE85FtSXt-g&__tn__=EH-R",
+      "date": "28/01/2020"
+    },
+    {
+      "name": "Explore ML Workshop",
+      "img": "assets/img/workshops/ml.png",
+      "link": "https://www.facebook.com/photo/?fbid=2588408917909184&set=a.908039265946166&__cft__[0]=AZUz1ax_vBnuRXc9ag-xxwtxz7TR1Axty57sfNu742JszmMr9G8eGdn4ghzt4vR2xYCs6cT73VoWk0gkeFbFrJdKpWzs9IzRsfbFhte3SJmtKKTF5TK02D2iKxnboGRraejc0ID7RBU57zvZ5y9W0KPXNVa_uLz1C9oPt4HyR400rQ&__tn__=EH-R",
+      "date": "18/11/2019"
+    },
+    {
+      "name": "Google Cloud Program",
+      "img": "assets/img/workshops/cloud.png",
+      "link": "https://www.facebook.com/photo/?fbid=2484650114951732&set=a.908039265946166&__cft__[0]=AZUNFRf2OskXIA2M6oyyKCiycBEilzNw77NkGh6cHu9NMU_BiYPAwXFUhbKH_d0er7-ubSj4H4yakFr0Ap2Y5aPikqTXQI0EOiItAg85DeCa4wptO6NsuIse7CMxblPkB_NsSFo94QAzzeDMiPkY4iFVH395VYl8sTjplmlO1Rjovg&__tn__=EH-R",
+      "date": "03/10/2019"
+    },
+    {
+      "name": "WebDev 19.1",
+      "img": "assets/img/logo.png",
+      "link": "https://www.facebook.com/photo/?fbid=2445086495574761&set=a.908039265946166&__cft__[0]=AZXjkRlu_pjxervGYcL3cQNwshtW1yVYojQkml7eUexemrWa6U1D0yLnrCSSN4Pz-p5p99gWryvm7N43LC8nSs4S2t3rvbyUTBrLez446VG69AVugi-x3xupWBECVhViyL4k9XpXE3UCSIKZfnbzgrtZ44O8fRsiY1A-P_onBThlXA&__tn__=EH-R",
+      "date": "24/09/2019"
+    },
+    {
+      "name": "Website Designing Competition",
+      "img": "assets/img/logo.png",
+      "link": "https://www.facebook.com/events/316243032393154/?__cft__[0]=AZVMzk0uIRpJS2lGp3m-A7Bmb0oN9KQ7wWESGG_gos8kodRcNcCJyrHYK_nKmxvEYU8x0DufWgDhiuwoRROM1HRVR6el6WgEN7G5FMt7C_H1SBRUwibIX9Dyb5F3tZuLELvw1mxOO-6XoiUoEwgNxZJG&__tn__=H-R",
+      "date": "21/04/2019"
+    }
+  ]
 }
