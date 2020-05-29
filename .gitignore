@@ -20,3 +20,7 @@ yarn-error.log*
 
 #log files
 *log
+
+**/public/workbox-*.js
+**/public/sw.js
+**/public/worker-*.js
