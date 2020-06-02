@@ -61,9 +61,19 @@
       }
     },
     {
+      "name": "Ayan Goel ",
+      "description": "Mobile App development enthusiast, works in Flutter, and Dart. Proficiency in Java and web automation. ",
+      "img": "/assets/img/coreteam/Members/ayan.jpeg",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/ayan-goel-2a30ab190 ",
+        "github": "github.com/GAyan17 ",
+        "fb": "facebook.com/goelayan "
+      }
+    },
+    {
       "name": "Shashank Mittal",
       "description": "Graphic Designer",
-      "img":"/assets/img/coreteam/Members/parth.jpeg",
+      "img": "/assets/img/coreteam/Members/shashank.jpeg",
       "links": {
         "linkedin": "https://www.linkedin.com/in/shashank-mittal-52237a17a/",
         "github": "https://github.com/Shashankm007",
