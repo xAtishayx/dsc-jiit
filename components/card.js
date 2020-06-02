@@ -29,7 +29,7 @@ class Footer extends Component {
                   </div>
                   <div className="card-body ">
                     <h4 className="card-title">{name}</h4>
-                    <h6 class="card-category text-m orange-color">Coordinator</h6>
+                    <h6 class="card-category text-m orange-color"></h6>
                     <p style={{color:"teal"}}>{description}</p>
                   </div>
                   <div className="card-footer justify-content-center">
