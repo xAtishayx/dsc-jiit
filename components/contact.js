@@ -188,6 +188,14 @@ class Contact extends Component {
                     alt="img"
                   />
                 </a>
+                <a href="https://www.instagram.com/dscjiit/">
+                  <img
+                  src="assets/img/instagram.png"
+                  width="35px"
+                  height="35px"
+                  alt="img"
+                  />
+                </a>
               </div>
             </div>
           </div>
