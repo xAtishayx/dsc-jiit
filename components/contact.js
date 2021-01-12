@@ -180,6 +180,14 @@ class Contact extends Component {
                     alt="img"
                   />
                 </a>
+                <a href="https://www.youtube.com/channel/UCMqzTZkzwdDOuTzYbSZY8jw">
+                  <img
+                    src="assets/img/youtube.png"
+                    width="35px"
+                    height="35px"
+                    alt="img"
+                  />
+                </a>
                 <a href="https://twitter.com/gdg_jiit_noida?lang=en">
                   <img
                     src="assets/img/twitter.png"
