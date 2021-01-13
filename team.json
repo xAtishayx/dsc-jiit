@@ -93,6 +93,43 @@
   ],
   "events": [
     {
+      "name": "Mentorship Programme Launch",
+      "img": "assets/img/logo.png",
+      "link": "#",
+      "date": "03/01/2021"
+    },
+    {
+      "name": "ASPIRE",
+      "img": "assets/img/logo.png",
+      "link": "#",
+      "date": "06/12/2020"
+    },
+    {
+      "name": "30 Days Of Google Cloud",
+      "img": "assets/img/workshops/cloud.png",
+      "link": "#",
+      "date": "October-2020"
+    },
+    {
+      "name": "Web-Dev Workshop",
+      "img": "assets/img/logo.png",
+      "link": "#",
+      "date": "26-27/09/2020"
+    },
+    
+    {
+      "name": "Node.js Workshop",
+      "img": "assets/img/logo.png",
+      "link": "#",
+      "date": "13/09/2020"
+    },
+    {
+      "name": "Orientation",
+      "img": "assets/img/logo.png",
+      "link": "#",
+      "date": "12/09/2020"
+    },
+    {
       "name": "First Step Towards GDE",
       "img": "assets/img/workshops/google.jpg",
       "link": "https://www.facebook.com/photo/?fbid=2954733971276675&set=a.908039265946166&__cft__[0]=AZVdGoMtybPoJbblrNjcf5RB8kkVzP6wVmG4dnFt1dXTUU-ZLk24TlMu6CUEXDOhF4Om2HE6n8HbzkPdYoKtbiPoFi3iPKKx0ufY_soUQ7lLBDFi1jeo-Vb8G0MGPVBzlisPVmaWIa0aWSoE28rndSneIPBFBsIfSVDIhANlX8crtA&__tn__=EH-R",
@@ -105,7 +142,7 @@
       "date": "03/05/2020"
     },
     {
-      "name": "ShikaAR The Treasure Hunt",
+      "name": "Shikaar The Treasure Hunt",
       "img": "assets/img/logo.png",
       "link": "https://www.facebook.com/photo/?fbid=2807258926024181&set=a.908039265946166&__cft__[0]=AZVF1L5Ieg8Kl96kvN4Jc4DcoA9k5znpx7pWonXi7S0cGZ2do_5blihQn-FZ__RrS1-hvOF3CVtbRLsoMxgYo9dYIkTSt-lO6qiGn8L7cimWNRKXOUvHAS4GPJWlLDTyHhabxGVfJu_GzusuFvm5JPo9yic3cdPcaS9QL8KBHsEoCg&__tn__=EH-R",
       "date": "29/02/2020"
@@ -146,5 +183,6 @@
       "link": "https://www.facebook.com/events/316243032393154/?__cft__[0]=AZVMzk0uIRpJS2lGp3m-A7Bmb0oN9KQ7wWESGG_gos8kodRcNcCJyrHYK_nKmxvEYU8x0DufWgDhiuwoRROM1HRVR6el6WgEN7G5FMt7C_H1SBRUwibIX9Dyb5F3tZuLELvw1mxOO-6XoiUoEwgNxZJG&__tn__=H-R",
       "date": "21/04/2019"
     }
+    
   ]
 }

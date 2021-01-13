@@ -188,6 +188,7 @@ class Contact extends Component {
                     alt="img"
                   />
                 </a>
+
                 <a href="https://www.youtube.com/channel/UCMqzTZkzwdDOuTzYbSZY8jw">
                   <img
                       src="https://www.flaticon.com/svg/vstatic/svg/1384/1384060.svg?token=exp=1610527578~hmac=83090f38b233ab27a3b0a01ff9c05f79"
@@ -202,6 +203,7 @@ class Contact extends Component {
                     width="35px"
                     height="35px"
                     alt="img"
+
                   />
                 </a>
               </div>
