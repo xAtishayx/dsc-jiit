@@ -69,9 +69,9 @@ function Videos() {
             <div className="col-12">
               <h2
                 className="title text-center"
-                style={{ padding: 50, paddingLeft: 80 }}
+                style={{ padding: 50, paddingLeft: 2, marginLeft: 42 }}
               >
-                DSC JIIT NOIDA YOUTUBE COMMUNITY{" "}
+                DSC JIIT NOIDA YOUTUBE COMMUNITY
               </h2>
               <h1
                 className="light-offset-title d-none d-md-block title text-center"

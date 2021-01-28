@@ -44,15 +44,8 @@ export default function Team() {
                     className="col-md-10 ml-auto mr-auto text-center"
                     style={{ marginTop: "250" }}
                   >
-                    <h1 className="title team-main-title">About the Team</h1>
-                    <h4
-                      className=" d-none d-md-block"
-                      style={{
-                        fontWeight: 300,
-                        wordSpacing: 3,
-                        letterSpacing: 1,
-                      }}
-                    >
+                    <h1 className="title team-main-title">About the Team
+                    <h4>
                       DSC JIIT aspires to expand its student community of
                       passionate and fervent developers to encapsulate the
                       latest and advanced technologies such as cloud computing,
@@ -64,6 +57,7 @@ export default function Team() {
                       Business, Creatives and Public Relations and Documentation
                       these events are organized with rewarding feedbacks.
                     </h4>
+                    </h1>
                   </div>
                 </div>
               </div>

@@ -97,7 +97,7 @@ export default class Events extends Component {
                   className="title text-center"
                   style={{ padding: 50, paddingLeft: 80 }}
                 >
-                  Past Events{" "}
+                  Past Events
                 </h2>
                 <h1
                   className="light-offset-title d-none d-md-block title text-center"
