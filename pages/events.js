@@ -2,6 +2,22 @@ import React, { Component } from "react";
 import Navbar2 from "../components/navbar2";
 import Contact from "../components/contact";
 import data from "../team.json";
+import { motion } from "framer-motion";
+
+const pageVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: { duration: 1 },
+  },
+  exit: {
+    opacity: 0,
+    transition: { duration: 0.5 },
+  },
+};
+
 export default class Events extends Component {
   state = { peeps: [] };
   componentDidMount() {
@@ -10,7 +26,13 @@ export default class Events extends Component {
   }
   render() {
     return (
-      <div>
+      <motion.div
+        key="2"
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+        variants={pageVariants}
+      >
         <Navbar2 />
         <div
           id="carouselExampleIndicators"
@@ -119,7 +141,7 @@ export default class Events extends Component {
                             <i className="material-icons">done</i>
                           </a>
                         </div>
-                      </div> 
+                      </div>
                     </div>
                   </div>
                 );
@@ -185,7 +207,7 @@ export default class Events extends Component {
                     margin-right: 0;
                 }
             `}</style>
-      </div>
+      </motion.div>
     );
   }
 }

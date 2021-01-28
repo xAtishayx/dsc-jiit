@@ -2,6 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
+import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -82,6 +83,7 @@ export default function Navbar() {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
+  const [left, setLeft] = React.useState(false);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -126,7 +128,7 @@ export default function Navbar() {
         </Toolbar>
       </AppBar>
 
-      <Drawer
+      <SwipeableDrawer
         className={classes.drawer}
         variant="persistent"
         anchor="right"
@@ -193,7 +195,7 @@ export default function Navbar() {
           </a>
         </List>
         <Divider />
-      </Drawer>
+      </SwipeableDrawer>
     </div>
   );
 }

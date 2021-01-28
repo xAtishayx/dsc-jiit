@@ -1,6 +1,21 @@
 import React, { useState, useEffect } from "react";
 import Navbar2 from "../components/navbar2";
 import Contact from "../components/contact";
+import { motion, AnimatePresence } from "framer-motion";
+
+const pageVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: { duration: 0.5 },
+  },
+  exit: {
+    opacity: 0,
+    transition: { duration: 0.5 },
+  },
+};
 
 function Videos() {
   const key = "AIzaSyCpRRXgv8ehAEgP59SnnTbrmqXXNmr3Gbo";
@@ -32,7 +47,14 @@ function Videos() {
   }, []);
 
   return (
-    <div className="header-3">
+    <motion.div
+      key="4"
+      className="header-3"
+      variants={pageVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
       <Navbar2 />
       <div className="workshop-main-div" data-parallax="false">
         <div className="red-circle circles circle1"></div>
@@ -134,7 +156,7 @@ function Videos() {
         ></div>
       </div>
       <Contact />
-    </div>
+    </motion.div>
   );
 }
 
