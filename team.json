@@ -1,43 +1,13 @@
 {
   "members": [
     {
-      "name": "Parth Chandna",
-      "description": "Web and App Developer ",
-      "img": "/assets/img/coreteam/Members/parth.jpeg",
+      "name": "Vibhu Agarwal",
+      "description": "Avid Pythonista | Full-Stack Dev",
+      "img": "/assets/img/coreteam/Members/vibhu.jpg",
       "links": {
-        "linkedin": "https://www.linkedin.com/in/parth-chandna-0b416b186",
-        "github": "https://github.com/pchandna24 ",
-        "fb": "https://m.facebook.com/profile.php?id=100002496285430"
-      }
-    },
-    {
-      "name": "Rohit Jain",
-      "description": "Web Development and Python scripting is my thing.",
-      "img": "/assets/img/coreteam/Members/rohit.jpeg",
-      "links": {
-        "linkedin": "https://www.linkedin.com/in/xrohitj",
-        "github": "https://github.com/rohitjain00",
-        "fb": "https://www.facebook.com/xRohitJ/"
-      }
-    },
-    {
-      "name": "Meetanshi Mittal",
-      "description": "Coordinator",
-      "img": "/assets/img/coreteam/Members/meetanshi.jpeg",
-      "links": {
-        "linkedin": "https://www.linkedin.com/in/meetanshi-mittal-2a6270176/",
-        "github": "https://github.com/Meetanshi18",
-        "fb": "https://www.facebook.com/meetanshi.mittal/"
-      }
-    },
-    {
-      "name": "Neel Kukreti",
-      "description": "App Developer",
-      "img": "/assets/img/coreteam/Members/neel.jpg",
-      "links": {
-        "linkedin": "https://www.linkedin.com/in/neel-kukreti-7469b2172/",
-        "github": "https://www.github.com/Neelkukreti",
-        "fb": "https://www.facebook.com/neelrockhard"
+        "linkedin": "https://www.linkedin.com/in/vibhu4agarwal/",
+        "github": "https://github.com/Vibhu-Agarwal",
+        "fb": " "
       }
     },
     {
@@ -71,23 +41,198 @@
       }
     },
     {
-      "name": "Shashank Mittal",
-      "description": "Graphic Designer",
-      "img": "/assets/img/coreteam/Members/shashank.jpeg",
+      "name": "Vaibhav Chawla",
+      "description": "App Developer, Web Developer",
+      "img": "/assets/img/coreteam/Members/unknown.png",
       "links": {
-        "linkedin": "https://www.linkedin.com/in/shashank-mittal-52237a17a/",
-        "github": "https://github.com/Shashankm007",
-        "fb": "https://www.facebook.com/smartshashank.1258/"
+        "linkedin": "https://www.linkedin.com/in/vaibhav-chawla-83a7891b6/",
+        "github": "https://github.com/vaibhav-c",
+        "fb": " "
       }
     },
     {
-      "name": "Shashank Agarwal",
-      "description": "Graphic Designer",
-      "img": "/assets/img/coreteam/Members/shashankJ.jpeg",
+      "name": "Samarth Asthana",
+      "description": "MERN Stack Developer",
+      "img": "/assets/img/coreteam/Members/Samarth.jpg",
       "links": {
-        "linkedin": "https://www.linkedin.com/in/shashank-agarwal-3ab5b21a7/",
-        "github": "https://github.com/Corbe30",
-        "fb": "https://www.facebook.com/shashank.agarwal.98096"
+        "linkedin": "https://www.linkedin.com/in/samarth-asthana-06857612b/ ",
+        "github": "https://github.com/samarth-asthana",
+        "fb": "https://www.facebook.com/asthana.samarth.07"
+      }
+    },
+    {
+      "name": "Shubh Saraswat",
+      "description": "Flutter Developer",
+      "img": "/assets/img/coreteam/Members/Shubh.jpeg",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/scorchy/",
+        "github": "https://github.com/scorchy38",
+        "fb": "https://www.facebook.com/betashubh/"
+      }
+    },
+    
+    {
+      "name": "Riya Jain",
+      "description": "Game Developer, Front End Developer",
+      "img": "/assets/img/coreteam/Members/unknown.png",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/rj-riya-jain ",
+        "github": "https://github.com/rjrealworld",
+        "fb": "https://www.facebook.com/profile.php?id=100014193789428"
+      }
+    },
+    {
+      "name": "Satakshi Garg ",
+      "description": "AR-VR Developer, Cyber Security Enthusiast ",
+      "img": "/assets/img/coreteam/Members/Satakshi.jpg",
+       "links":{
+      "linkedin":"https://www.linkedin.com/in/satakshigarg ",           
+      "github": "https://github.com/satakshigarg  ",
+       "fb":" "
+      }
+    },
+      
+    {
+      "name": "Chitransh Jain ",
+      "description": "Flutter Developer",
+      "img": "/assets/img/coreteam/Members/Chitransh.jpg",
+      "links":{
+      "linkedin": "https://www.linkedin.com/in/chitransh-jain-31b0771b0",
+      "github": "https://github.com/chitranshjain",
+      "fb":"https://m.facebook.com/i.m.vansh?ref=bookmarks "
+      }
+    },
+    {
+      "name": "Aditya Kumar Singh ",
+      "description": "Flutter Developer & Game Developer(Unity)",
+      "img": "/assets/img/coreteam/Members/Aditya.jpg",
+      "links":{
+      "linkedin": "https://www.linkedin.com/in/aditya-kumar-singh-1973b61b1",
+      "github": "https://github.com/adityaxpique",
+      "fb": " "
+      }
+    },
+    {
+      "name": "Arshpreet Singh",
+      "description": "Data Science Enthusiast",
+      "img": "/assets/img/coreteam/Members/unknown.png",
+      "links":{
+      "linkedin": "https://www.linkedin.com/in/arshpreet-singh-791721173/",
+      "github": "https://github.com/arshpreet10",
+      "fb":" "
+      }
+    },
+      
+    {
+      "name": "Shashank Agarwal ",
+      "description": "Graphic&Digital Artist, Frontend, UI-UX",
+      "img": "/assets/img/coreteam/Members/Shashank.jpg",
+      "imglink":"",
+      "links":{
+      "linkedin":"https://www.linkedin.com/in/shashank-agarwal-3ab5b21a7/ ",           
+      "github": "https://github.com/Corbe30  ",
+      "fb":" "
+    }
+      },
+      
+      {
+        "name": "Vasu Kesharwani",
+        "description": "App Developer ",
+        "img": "/assets/img/coreteam/Members/Vasu.png",
+         "links":{
+         "linkedin":"https://www.linkedin.com/in/vasu-kesharwani-843116173/ ",           
+        "github": "https://github.com/vasuksh  ",
+         "fb":" "
+         }
+        },
+        
+        {
+          "name": "Sounak Saha",
+          "description": "Marketing / Web Developer ",
+          "img": "/assets/img/coreteam/Members/unknown.png",
+          "links":{
+          "linkedin":"https://www.linkedin.com/in/sounak-saha-254259196/ ",           
+          "github": "https://github.com/prodeveloper03 ",
+           "fb":"https://www.facebook.com/sounak.saha.756?ref=bookmarks "
+          }
+          },
+          
+          {
+            "name": "Vibhor Garg",
+            "description": "Marketing and Public Relations ",
+            "img": "/assets/img/coreteam/Members/Vibhor.png",
+            "links":{
+            "linkedin":"https://www.linkedin.com/in/vibhor-garg-a0a0b5193",           
+            "github": "https://github.com/vibhorgrg3  ",
+             "fb":" "
+            }
+            },
+            
+            {
+              "name": "Vasu Aggarwal",
+              "description": "MERN Developer, Android Developer, Data Science Enthusiast",
+              "img": "/assets/img/coreteam/Members/Vasu_agg.jpg",
+              "links":{
+                "linkedin":"https://www.linkedin.com/in/vasu-aggarwal-659b2a19a/",      	 
+                "github": "https://github.com/vasu2001",
+                "fb":" "
+                 }
+              },
+              
+              {
+                "name": "Ishan Goswami",
+                "description": "Android Developer, Flutter, Graphic Designer",
+                "img": "/assets/img/coreteam/Members/unknown.png",
+                "links":{
+                "linkedin":"https://www.linkedin.com/in/theishangoswami/",           
+                "github": "https://github.com/theishangoswami",
+                "fb":" "
+                }
+                },
+                
+
+                {
+                  "name": "Anshika Mishra ",
+                  "description": "MERN  ",
+                  "img": "/assets/img/coreteam/Members/unknown.png",
+                  "links":{
+                  "linkedin": "https://www.linkedin.com/in/anshika451/",
+                 "github": "https://github.com/anshika451 ",
+                   "fb": " "
+                    }
+                  },
+                  {
+                    "name":"Kishita Jain",
+                    "description": "MERN Stack Developer ",
+                    "img": "/assets/img/coreteam/Members/kishita.jpg",
+                     "links":{
+                    "linkedin": "https://www.linkedin.com/in/kishita-jain-1b078a1ab/",
+                    "github": "https://github.com/kishitakj",
+                    "fb": " "
+                  }
+                    },
+                    
+                    {
+                      "name":"Kshatakshi Gupta",
+                      "description": "MERN Stack Developer, Graphic Designer, UX-UI ",
+                      "img": "/assets/img/coreteam/Members/Kshatakashi.jpg",
+                       "links":{
+                      "linkedin": "https://www.linkedin.com/in/kshatakshi-gupta-37227b184/",
+                      "github": "https://github.com/Kshatakshi",
+                      "fb": " "
+                    }
+                      },
+                      
+                    
+                  
+    {
+      "name": "Aamir Ahmad ",
+      "description": "Web application security tester",
+      "img": "/assets/img/coreteam/Members/aamir.png",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/aamir-ahmad-b388641a6/",
+        "github": "https://github.com/sickwiz",
+        "fb": ""
       }
     }
   ],

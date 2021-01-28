@@ -31,18 +31,18 @@ class Members extends Component {
                   </a>
                 </div>
                 <div className="card-body ">
-                  <h4 className="card-title">Medha Saha</h4>
+                  <h4 className="card-title">Dhanshree Tejwani</h4>
                 </div>
                 <div className="card-footer justify-content-center">
                   <a
-                    href=""
+                    href="https://www.linkedin.com/in/dhanshreetejwani"
                     target="_blank"
                     className="btn btn-just-icon btn-link btn-linkedin"
                   >
                     <i className="fa fa-linkedin"></i>
                   </a>
                   <a
-                    href=""
+                    href="https://github.com/tejwani23"
                     target="_blank"
                     target="_blank"
                     className="btn btn-just-icon btn-link btn-github"
