@@ -7,6 +7,7 @@ import theme from "../src/theme";
 import "../assets/css/custom.css";
 import "../assets/css/material-kit1c51.css";
 import "../assets/css/font-awesome.min.css";
+import { AnimatePresence } from "framer-motion";
 
 class MyApp extends App {
   componentDidMount() {
@@ -25,18 +26,19 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
 
     return (
-      <Container>
-        <Head>
-          <title>DSC JIIT</title>
-          <link rel="icon" href="assets/img/logo.png" />
-
-        </Head>
-        <ThemeProvider theme={theme}>
-          {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-          <CssBaseline />
-          <Component {...pageProps} />
-        </ThemeProvider>
-      </Container>
+      <AnimatePresence exitBeforeEnter>
+        <Container>
+          <Head>
+            <title>DSC JIIT</title>
+            <link rel="icon" href="assets/img/logo.png" />
+          </Head>
+          <ThemeProvider theme={theme}>
+            {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+            <CssBaseline />
+            <Component {...pageProps} />
+          </ThemeProvider>
+        </Container>
+      </AnimatePresence>
     );
   }
 }
