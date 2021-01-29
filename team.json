@@ -13,7 +13,7 @@
     {
       "name": "Atishay Srivastava",
       "description": "MERN | Front-End Dev ",
-      "img": "/assets/img/coreteam/Members/dp.jpeg",
+      "img": "/assets/img/coreteam/Members/atishay.jpg",
       "links": {
         "linkedin": "https://www.linkedin.com/in/atishay-srivastava-7a1140174",
         "github": "https://www.github.com/xatishayx",
@@ -43,7 +43,7 @@
     {
       "name": "Vaibhav Chawla",
       "description": "App Developer, Web Developer",
-      "img": "/assets/img/coreteam/Members/unknown.png",
+      "img": "/assets/img/coreteam/Members/vaibhav.jpg",
       "links": {
         "linkedin": "https://www.linkedin.com/in/vaibhav-chawla-83a7891b6/",
         "github": "https://github.com/vaibhav-c",
@@ -74,7 +74,7 @@
     {
       "name": "Riya Jain",
       "description": "Game Developer, Front End Developer",
-      "img": "/assets/img/coreteam/Members/unknown.png",
+      "img": "/assets/img/coreteam/Members/riya.jpg",
       "links": {
         "linkedin": "https://www.linkedin.com/in/rj-riya-jain ",
         "github": "https://github.com/rjrealworld",
@@ -115,7 +115,7 @@
     {
       "name": "Arshpreet Singh",
       "description": "Data Science Enthusiast",
-      "img": "/assets/img/coreteam/Members/unknown.png",
+      "img": "/assets/img/coreteam/Members/arshpreet.jpg",
       "links":{
       "linkedin": "https://www.linkedin.com/in/arshpreet-singh-791721173/",
       "github": "https://github.com/arshpreet10",
@@ -149,7 +149,7 @@
     {
       "name": "Sounak Saha",
       "description": "Marketing / Web Developer ",
-      "img": "/assets/img/coreteam/Members/unknown.png",
+      "img": "/assets/img/coreteam/Members/sounak.jpg",
       "links":{
       "linkedin":"https://www.linkedin.com/in/sounak-saha-254259196/ ",           
       "github": "https://github.com/prodeveloper03 ",
@@ -182,7 +182,7 @@
   {
      "name": "Ishan Goswami",
      "description": "Android Developer, Flutter, Graphic Designer",
-     "img": "/assets/img/coreteam/Members/unknown.png",
+     "img": "/assets/img/coreteam/Members/ishan.jpg",
      "links":{
      "linkedin":"https://www.linkedin.com/in/theishangoswami/",           
      "github": "https://github.com/theishangoswami",
@@ -204,7 +204,7 @@
    {
      "name":"Kishita Jain",
      "description": "MERN Stack Developer ",
-     "img": "/assets/img/coreteam/Members/unknown.png",
+     "img": "/assets/img/coreteam/Members/kishita.jpg",
      "links":{
      "linkedin": "https://www.linkedin.com/in/kishita-jain-1b078a1ab/",
      "github": "https://github.com/kishitakj",
