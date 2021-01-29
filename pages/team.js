@@ -2,18 +2,40 @@ import React from "react";
 import Navbar2 from "../components/navbar2";
 import Members from "../components/members";
 import Contact from "../components/contact";
+import { motion } from "framer-motion";
 const img = "assets/img/fb.jpg";
+
+const pageVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: { duration: 1 },
+  },
+  exit: {
+    opacity: 0,
+    transition: { duration: 0.5 },
+  },
+};
 
 export default function Team() {
   return (
-    <div className="header-3">
+    <motion.div
+      key="3"
+      className="header-3"
+      variants={pageVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
       <Navbar2 />
       <div
         id="carouselExampleIndicators"
         className="carousel slide"
         data-ride="carousel"
       >
-        <div className="carousel-inner" id ="about">
+        <div className="carousel-inner" id="about">
           <div className="carousel-item active">
             <div className="page-header header-filter" id="img">
               <div className="container">
@@ -41,8 +63,8 @@ export default function Team() {
               </div>
             </div>
           </div>
-          </div>
-          </div>
+        </div>
+      </div>
       <style jsx>{`
         #img {
           background-image: url('/assets/img/events/1.jpeg');
@@ -61,18 +83,44 @@ export default function Team() {
           }
       `}</style>
 
-
-
-<div className="row" >
-      <div className="bg-yellow" style={{height: 15, width: "33.33%", padding: 0, marginLeft: 0, marginRight: 0, display: "flex"}}></div>
-      <div className="bg-blue" style={{height: 15, width: "33.33%", padding: 0, marginLeft: 0, marginRight: 0, display: "flex"}}></div>
-      <div className="bg-red" style={{height: 15, width: "33.33%", padding: 0, marginLeft: 0, marginRight: 0, display: "flex"}}></div>
-    </div>
-
-
+      <div className="row">
+        <div
+          className="bg-yellow"
+          style={{
+            height: 15,
+            width: "33.33%",
+            padding: 0,
+            marginLeft: 0,
+            marginRight: 0,
+            display: "flex",
+          }}
+        ></div>
+        <div
+          className="bg-blue"
+          style={{
+            height: 15,
+            width: "33.33%",
+            padding: 0,
+            marginLeft: 0,
+            marginRight: 0,
+            display: "flex",
+          }}
+        ></div>
+        <div
+          className="bg-red"
+          style={{
+            height: 15,
+            width: "33.33%",
+            padding: 0,
+            marginLeft: 0,
+            marginRight: 0,
+            display: "flex",
+          }}
+        ></div>
+      </div>
 
       <Members />
       <Contact />
-    </div>
+    </motion.div>
   );
 }
