@@ -135,93 +135,93 @@
     }
       },
       
-      {
-        "name": "Vasu Kesharwani",
-        "description": "App Developer ",
-        "img": "/assets/img/coreteam/Members/Vasu.png",
-         "links":{
-         "linkedin":"https://www.linkedin.com/in/vasu-kesharwani-843116173/ ",           
-        "github": "https://github.com/vasuksh  ",
-         "fb":" "
-         }
-        },
+    {
+      "name": "Vasu Kesharwani",
+      "description": "App Developer ",
+      "img": "/assets/img/coreteam/Members/Vasu.png",
+      "links":{
+      "linkedin":"https://www.linkedin.com/in/vasu-kesharwani-843116173/ ",           
+      "github": "https://github.com/vasuksh  ",
+      "fb":" "
+       }
+    },
         
-        {
-          "name": "Sounak Saha",
-          "description": "Marketing / Web Developer ",
-          "img": "/assets/img/coreteam/Members/unknown.png",
-          "links":{
-          "linkedin":"https://www.linkedin.com/in/sounak-saha-254259196/ ",           
-          "github": "https://github.com/prodeveloper03 ",
-           "fb":"https://www.facebook.com/sounak.saha.756?ref=bookmarks "
-          }
-          },
+    {
+      "name": "Sounak Saha",
+      "description": "Marketing / Web Developer ",
+      "img": "/assets/img/coreteam/Members/unknown.png",
+      "links":{
+      "linkedin":"https://www.linkedin.com/in/sounak-saha-254259196/ ",           
+      "github": "https://github.com/prodeveloper03 ",
+      "fb":"https://www.facebook.com/sounak.saha.756?ref=bookmarks "
+    }
+  },
           
-          {
-            "name": "Vibhor Garg",
-            "description": "Marketing and Public Relations ",
-            "img": "/assets/img/coreteam/Members/Vibhor.png",
-            "links":{
-            "linkedin":"https://www.linkedin.com/in/vibhor-garg-a0a0b5193",           
-            "github": "https://github.com/vibhorgrg3  ",
-             "fb":" "
-            }
-            },
+  {
+    "name": "Vibhor Garg",
+     "description": "Marketing and Public Relations ",
+     "img": "/assets/img/coreteam/Members/Vibhor.png",
+     "links":{
+      "linkedin":"https://www.linkedin.com/in/vibhor-garg-a0a0b5193",           
+      "github": "https://github.com/vibhorgrg3  ",
+       "fb":" "
+       }
+  },
             
-            {
-              "name": "Vasu Aggarwal",
-              "description": "MERN Developer, Android Developer, Data Science Enthusiast",
-              "img": "/assets/img/coreteam/Members/Vasu_agg.jpg",
-              "links":{
-                "linkedin":"https://www.linkedin.com/in/vasu-aggarwal-659b2a19a/",      	 
-                "github": "https://github.com/vasu2001",
-                "fb":" "
-                 }
-              },
+  {
+    "name": "Vasu Aggarwal",
+    "description": "MERN Developer, Android Developer, Data Science Enthusiast",
+    "img": "/assets/img/coreteam/Members/Vasu_agg.jpg",
+     "links":{
+       "linkedin":"https://www.linkedin.com/in/vasu-aggarwal-659b2a19a/",      	 
+       "github": "https://github.com/vasu2001",
+       "fb":" "
+         }
+  },
               
-              {
-                "name": "Ishan Goswami",
-                "description": "Android Developer, Flutter, Graphic Designer",
-                "img": "/assets/img/coreteam/Members/unknown.png",
-                "links":{
-                "linkedin":"https://www.linkedin.com/in/theishangoswami/",           
-                "github": "https://github.com/theishangoswami",
-                "fb":" "
-                }
-                },
+  {
+     "name": "Ishan Goswami",
+     "description": "Android Developer, Flutter, Graphic Designer",
+     "img": "/assets/img/coreteam/Members/unknown.png",
+     "links":{
+     "linkedin":"https://www.linkedin.com/in/theishangoswami/",           
+     "github": "https://github.com/theishangoswami",
+       "fb":" "
+       }
+  },
                 
 
-                {
-                  "name": "Anshika Mishra ",
-                  "description": "MERN  ",
-                  "img": "/assets/img/coreteam/Members/unknown.png",
-                  "links":{
-                  "linkedin": "https://www.linkedin.com/in/anshika451/",
-                 "github": "https://github.com/anshika451 ",
-                   "fb": " "
-                    }
-                  },
-                  {
-                    "name":"Kishita Jain",
-                    "description": "MERN Stack Developer ",
-                    "img": "/assets/img/coreteam/Members/kishita.jpg",
-                     "links":{
-                    "linkedin": "https://www.linkedin.com/in/kishita-jain-1b078a1ab/",
-                    "github": "https://github.com/kishitakj",
-                    "fb": " "
-                  }
-                    },
+   {
+     "name": "Anshika Mishra ",
+     "description": "MERN  ",
+     "img": "/assets/img/coreteam/Members/Anshika.jpg",
+     "links":{
+      "linkedin": "https://www.linkedin.com/in/anshika451/",
+      "github": "https://github.com/anshika451 ",
+       "fb": " "
+   }
+  },
+   {
+     "name":"Kishita Jain",
+     "description": "MERN Stack Developer ",
+     "img": "/assets/img/coreteam/Members/unknown.png",
+     "links":{
+     "linkedin": "https://www.linkedin.com/in/kishita-jain-1b078a1ab/",
+     "github": "https://github.com/kishitakj",
+      "fb": " "
+   }
+},
                     
-                    {
-                      "name":"Kshatakshi Gupta",
-                      "description": "MERN Stack Developer, Graphic Designer, UX-UI ",
-                      "img": "/assets/img/coreteam/Members/Kshatakashi.jpg",
-                       "links":{
-                      "linkedin": "https://www.linkedin.com/in/kshatakshi-gupta-37227b184/",
-                      "github": "https://github.com/Kshatakshi",
-                      "fb": " "
-                    }
-                      },
+ {
+    "name":"Kshatakshi Gupta",
+    "description": "MERN Stack Developer, Graphic Designer, UX-UI ",
+    "img": "/assets/img/coreteam/Members/Kshatakashi.jpg",
+    "links":{
+    "linkedin": "https://www.linkedin.com/in/kshatakshi-gupta-37227b184/",
+    "github": "https://github.com/Kshatakshi",
+    "fb": " "
+  }
+},
                       
                     
                   
