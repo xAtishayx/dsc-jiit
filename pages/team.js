@@ -2,18 +2,40 @@ import React from "react";
 import Navbar2 from "../components/navbar2";
 import Members from "../components/members";
 import Contact from "../components/contact";
+import { motion } from "framer-motion";
 const img = "assets/img/fb.jpg";
+
+const pageVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: { duration: 1 },
+  },
+  exit: {
+    opacity: 0,
+    transition: { duration: 0.5 },
+  },
+};
 
 export default function Team() {
   return (
-    <div className="header-3">
+    <motion.div
+      key="3"
+      className="header-3"
+      variants={pageVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
       <Navbar2 />
       <div
         id="carouselExampleIndicators"
         className="carousel slide"
         data-ride="carousel"
       >
-        <div className="carousel-inner" id ="about">
+        <div className="carousel-inner" id="about">
           <div className="carousel-item active">
             <div className="page-header header-filter" id="img">
               <div className="container">
@@ -22,15 +44,8 @@ export default function Team() {
                     className="col-md-10 ml-auto mr-auto text-center"
                     style={{ marginTop: "250" }}
                   >
-                    <h1 className="title team-main-title">About the Team</h1>
-                    <h4
-                      className=" d-none d-md-block"
-                      style={{
-                        fontWeight: 300,
-                        wordSpacing: 3,
-                        letterSpacing: 1,
-                      }}
-                    >
+                    <h1 className="title team-main-title">About the Team
+                    <h4>
                       DSC JIIT aspires to expand its student community of
                       passionate and fervent developers to encapsulate the
                       latest and advanced technologies such as cloud computing,
@@ -42,13 +57,14 @@ export default function Team() {
                       Business, Creatives and Public Relations and Documentation
                       these events are organized with rewarding feedbacks.
                     </h4>
+                    </h1>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          </div>
-          </div>
+        </div>
+      </div>
       <style jsx>{`
         #img {
           background-image: url('/assets/img/events/1.jpeg');
@@ -67,18 +83,44 @@ export default function Team() {
           }
       `}</style>
 
-
-
-<div className="row" >
-      <div className="bg-yellow" style={{height: 15, width: "33.33%", padding: 0, marginLeft: 0, marginRight: 0, display: "flex"}}></div>
-      <div className="bg-blue" style={{height: 15, width: "33.33%", padding: 0, marginLeft: 0, marginRight: 0, display: "flex"}}></div>
-      <div className="bg-red" style={{height: 15, width: "33.33%", padding: 0, marginLeft: 0, marginRight: 0, display: "flex"}}></div>
-    </div>
-
-
+      <div className="row">
+        <div
+          className="bg-yellow"
+          style={{
+            height: 15,
+            width: "33.33%",
+            padding: 0,
+            marginLeft: 0,
+            marginRight: 0,
+            display: "flex",
+          }}
+        ></div>
+        <div
+          className="bg-blue"
+          style={{
+            height: 15,
+            width: "33.33%",
+            padding: 0,
+            marginLeft: 0,
+            marginRight: 0,
+            display: "flex",
+          }}
+        ></div>
+        <div
+          className="bg-red"
+          style={{
+            height: 15,
+            width: "33.33%",
+            padding: 0,
+            marginLeft: 0,
+            marginRight: 0,
+            display: "flex",
+          }}
+        ></div>
+      </div>
 
       <Members />
       <Contact />
-    </div>
+    </motion.div>
   );
 }

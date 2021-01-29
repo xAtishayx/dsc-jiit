@@ -21,7 +21,7 @@ class Mainpage extends Component {
               <div className="brand text-center">
                 <h1 className="main_header_title">DSC JIIT</h1>
                 <h3 className="main_header_subtitle text-center">
-                  Developer Student Clubs | Powered By Google Developers
+                  Developer Student Clubs | JIIT Noida
                 </h3>
               </div>
             </div>

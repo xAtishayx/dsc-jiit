@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 import Navbar2 from "../components/navbar2";
@@ -7,15 +7,39 @@ import About from "../components/about";
 import Contact from "../components/contact";
 import Parallaxs from "../components/parallax";
 import Whatwedo from "../components/whatwedo";
+import { motion, usePresence } from "framer-motion";
 
 const Title = styled.h1`
   color: red;
   font-size: 50px;
 `;
 
+const pageVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: { duration: 0.5 },
+  },
+  exit: {
+    opacity: 0,
+    transition: { duration: 5 },
+  },
+};
+
 export default function Index() {
+  const [isPresent, safeToRemove] = usePresence();
+
   return (
-    <div style={{ scrollBehavior: "smooth" }}>
+    <motion.div
+      key="1"
+      style={{ scrollBehavior: "smooth" }}
+      variants={pageVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
       <Navbar2 />
       <MainPage />
       <Parallaxs />
@@ -110,6 +134,6 @@ export default function Index() {
       <Whatwedo />
 
       <Contact />
-    </div>
+    </motion.div>
   );
 }
