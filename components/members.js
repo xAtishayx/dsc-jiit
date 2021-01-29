@@ -44,24 +44,16 @@ class Members extends Component {
                   <a
                     href="https://github.com/tejwani23"
                     target="_blank"
-                    target="_blank"
                     className="btn btn-just-icon btn-link btn-github"
                   >
                     <i className="fa fa-github"></i>
                   </a>
                   <a
-                    href=""
+                    href="https://instagram.com/dhanshree23"
                     target="_blank"
                     className="btn btn-just-icon btn-link btn-twitter"
                   >
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                  <a
-                    href=""
-                    target="_blank"
-                    className="btn btn-just-icon btn-link btn-facebook"
-                  >
-                    <i className="fa fa-facebook-square"></i>
+                    <i className="fa fa-instagram"></i>
                   </a>
                 </div>
               </div>
